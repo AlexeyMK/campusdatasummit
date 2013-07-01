@@ -47,12 +47,20 @@ article p {
     margin-left: -7.5%;
 }
 .intro p {
-    padding: 0 0 3em 3%;
+    padding: 0 0 2em 3%;
     font-size: 2em;
     width: 73%;
     margin: 0 auto;
     font-family: "Abel";
     line-height: 1.4;
+}
+.sponsor-logo {
+  width: 250px;
+  margin-top: 20px;
+}
+.intro .sponsors {
+  text-align: center;
+  padding-bottom: 1em;
 }
 .date span {
     display: inline-block;
@@ -92,7 +100,7 @@ h4 {
 .calls-to-action .button.sponsor {
     margin-right: 9%;
     background-color: #CEE0D2;
-    box-shadow: 0 6px rgb(184, 207, 189);    
+    box-shadow: 0 6px rgb(184, 207, 189);
 }
 .calls-to-action .button {
     background-color: #A8D4DF;
@@ -102,13 +110,13 @@ h4 {
     padding: 0.5em 1.5em 0.4em;
     position: relative;
     top: 4px;
-    box-shadow: 0 6px rgb(156, 196, 206); 
+    box-shadow: 0 6px rgb(156, 196, 206);
 }
 .calls-to-action .button:hover {
     transition: none;
     top: 6px;
     color: black;
-    box-shadow: 0 4px rgb(156, 196, 206); 
+    box-shadow: 0 4px rgb(156, 196, 206);
 }
 .calls-to-action .button.sponsor:hover {
     box-shadow: 0 4px rgb(184, 207, 189);
@@ -137,8 +145,11 @@ h4 {
     }
 }
 @media screen and (max-width: 1024px) {
+    .intro .sponsors {
+      padding-bottom: 1em;
+    }
     .intro p{
-        padding: 0 0 3em 0%;
+        padding: 0 0 2em 0%;
         width: 82%;
     }
     .main {
@@ -146,7 +157,7 @@ h4 {
         padding-right: 10%;
     }
     .calls-to-action .button {
-        width: 100%;        
+        width: 100%;
     }
     .calls-to-action .button.sponsor {
         margin-left: 0;
@@ -177,7 +188,7 @@ h4 {
     }
     .intro p {
         width: 88%;
-        padding-bottom: 2.75em;
+        padding-bottom: 2em;
     }
     .main {
         padding: 1.5em 7% 2em;
