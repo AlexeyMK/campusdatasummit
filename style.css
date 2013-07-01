@@ -1,0 +1,210 @@
+}
+* {
+     box-sizing: border-box;
+}
+body {
+    font-family: "Fjord One";
+    line-height: 1.66;
+    background-color: #170F02;
+    color: #170F02;
+    font-size: 1.1em;
+    background-attachment: fixed;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Abel";
+    font-weight: normal;
+}
+h1 {
+    font-size: 5em;
+    text-align: center;
+    letter-spacing: -0.05em;
+    font-family: "Abel";
+    color: #170F02;
+    margin-top: 2.25em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+article h4 {
+    color: #A8D4DF;
+    margin-bottom: 0.25em;
+}
+article p {
+    max-width: 45em;
+    margin-bottom: 1.66em;
+}
+.date {
+    width: 15%;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 1.1em 0.5em 0.75em;
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 1.1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -7.5%;
+}
+.intro p {
+    padding: 0 0 3em 3%;
+    font-size: 2em;
+    width: 73%;
+    margin: 0 auto;
+    font-family: "Abel";
+    line-height: 1.4;
+}
+.date span {
+    display: inline-block;
+    width: 100%;
+    font-size: 2.05em;
+}
+h3 {
+    font-size: 3em;
+    text-align: left;
+    background-color: white;
+    margin: 0.25em 0 0;
+}
+h3+h4 {
+    margin-top: 0.66em;
+}
+h4 {
+    font-size: 1.75em;
+}
+.main {
+    padding: 3em 21% 4em;
+    background-color: #fff;
+}
+.wrapper {
+    background-color: #c9e4ea;
+    border: 0.75em solid rgb(250, 250, 250);
+    width: 96%;
+    margin: 0 auto;
+}
+.calls-to-action {
+    background-color: rgb(250, 250, 250);
+    padding: 3em 3em 4.5em;
+}
+.calls-to-action div {
+    width: 68%;
+    margin: 0 auto;
+}
+.calls-to-action .button.sponsor {
+    margin-right: 9%;
+    background-color: #CEE0D2;
+    box-shadow: 0 6px rgb(184, 207, 189);    
+}
+.calls-to-action .button {
+    background-color: #A8D4DF;
+    border: none;
+    border-radius: 6px;
+    font-size: 2em;
+    padding: 0.5em 1.5em 0.4em;
+    position: relative;
+    top: 4px;
+    box-shadow: 0 6px rgb(156, 196, 206); 
+}
+.calls-to-action .button:hover {
+    transition: none;
+    top: 6px;
+    color: black;
+    box-shadow: 0 4px rgb(156, 196, 206); 
+}
+.calls-to-action .button.sponsor:hover {
+    box-shadow: 0 4px rgb(184, 207, 189);
+}
+.footer {
+    background-color: #dcdcdc;
+    color: rgb(151, 151, 151);
+    font-size: 0.75em;
+    padding: 0.5em 1% 0.4em;
+    min-height: 1.5em;
+}
+.footer div {
+    float: right;
+}
+.footer p {
+    margin: 0;
+    display: inline;
+}
+.footer p a {
+    text-decoration: none;
+    color: #666;
+}
+@media screen and (max-width: 1200px) {
+    .calls-to-action .button.sponsor {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .intro p{
+        padding: 0 0 3em 0%;
+        width: 82%;
+    }
+    .main {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .calls-to-action .button {
+        width: 100%;        
+    }
+    .calls-to-action .button.sponsor {
+        margin-left: 0;
+        margin-right: 3.5%;
+        margin-bottom: 1.2em;
+    }
+    .footer {
+        min-height: 3em;
+    }
+}
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 0.95em;
+    }
+    .wrapper {
+        border-width: 0.5em
+    }
+    h1 {
+        font-size: 2.8em;
+        margin-top: 2.7em;
+    }
+    article h4 {
+        line-height: 1.3em;
+        font-size: 1.6em;
+    }
+    .intro {
+        font-size: 0.65em;
+    }
+    .intro p {
+        width: 88%;
+        padding-bottom: 2.75em;
+    }
+    .main {
+        padding: 1.5em 7% 2em;
+    }
+    .date {
+        width: 30%;
+        margin-left: -15%;
+        font-size: 1.1em;
+        padding-right: 0.1em;
+        padding-left: 0.1em;
+    }
+    .calls-to-action {
+        padding-bottom: 3.5em;
+    }
+    .calls-to-action .button {
+        font-size: 1.33em;
+        padding: 0.7em;
+    }
+    .footer {
+        min-height: 3em;
+        font-size: 0.78em;
+        padding: 0.75em 2.5%;
+    }
+}
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 2.25em;
+        margin-top: 3em;
+    }
+}
