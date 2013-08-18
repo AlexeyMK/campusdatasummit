@@ -54,6 +54,14 @@ article p {
     font-family: "Abel";
     line-height: 1.4;
 }
+p.results {
+    text-align: center;
+    color: brown;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    background-color: #ccc;
+    padding-left: 0px;
+}
 .sponsor-logo {
   width: 250px;
   margin-top: 20px;
